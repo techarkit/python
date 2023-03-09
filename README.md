@@ -1,6 +1,9 @@
 # Tech Arkit Python
 Python Code which i practiced and developed
 
+- 42 - Integer
+- '42' - String
+
 ## Comparison Operators
 - `== Equal to`
 - `!= Not Equal to`
