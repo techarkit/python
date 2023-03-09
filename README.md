@@ -34,7 +34,9 @@ Python Code which i practiced and developed
 - not True = Flase
 - not False = True
 
-```myAge = 26
+```
+myAge = 26
 myPet = 'Dog'
 myAge > 20 and myPet == 'Dog'
-True```
+True
+```
