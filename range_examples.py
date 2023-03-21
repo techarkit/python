@@ -7,3 +7,8 @@ for j in range(5, 10):
 print('My Name is Ravi')
 for i in range(0, 10, 2):
   print('Print 2 into 5 Times' + str(i))
+
+## Print values 2*number 
+print('My Name is Ravi')
+for k in range(10, -1, -1):
+  print('Print 2 into 5 Times' + str(k))
