@@ -1,0 +1,27 @@
+smtp:
+  server: 192.168.2.10
+  port: 25
+  sender: name@domain.com
+  subject_prefix: "NetApp Health Check Report"
+
+defaults:
+  to:
+    - sur.name@domain.com
+  cc: []
+
+clusters:
+  - name: NETAPP-01
+    ip: 192.168.2.200
+    username: user
+    password: password@123
+    to:
+      - dl-name@domain.com
+    cc:
+      - dl-name1@domain.com
+    enabled: true
+
+  - name: NETAPP-02
+    ip: 192.168.2.201
+    username: user
+    password: password@123
+    enabled: true
